@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Map;
 
-
 @Component
 public class RequestDaoImpl implements RequestDao {
 
@@ -23,7 +22,6 @@ public class RequestDaoImpl implements RequestDao {
     public RequestDaoImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
-
 
     /**
      * @param dateStr
@@ -50,7 +48,6 @@ public class RequestDaoImpl implements RequestDao {
         }
         return userList;
     }
-
 
     /**
      * @param retentionType

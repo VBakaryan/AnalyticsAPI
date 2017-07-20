@@ -11,7 +11,6 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
-
 @Component
 public class UserDaoImpl implements UserDao {
 
@@ -22,7 +21,6 @@ public class UserDaoImpl implements UserDao {
     public UserDaoImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
-
 
     /**
      * @see UserDao#getUser(String)

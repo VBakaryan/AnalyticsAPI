@@ -1,6 +1,5 @@
 package com.plexonic.analyticsapi.util;
 
-
 public class StringDateFormatConverter {
 
     /**

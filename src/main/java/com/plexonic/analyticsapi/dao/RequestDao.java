@@ -3,7 +3,6 @@ package com.plexonic.analyticsapi.dao;
 import java.util.List;
 import java.util.Map;
 
-
 public interface RequestDao {
 
     /**
@@ -12,7 +11,6 @@ public interface RequestDao {
      * @param dateStr
      */
     List<String> getDailyActiveUsers(String dateStr);
-
 
     /**
      * Gets Retention for the given period

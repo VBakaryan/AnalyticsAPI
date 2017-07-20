@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
 @RestController
 @RequestMapping("/rest")
 public class APIController {
@@ -27,7 +26,6 @@ public class APIController {
         this.requestService = requestService;
         this.userService = userService;
     }
-
 
     /**
      * API for getting Daily active users
@@ -58,7 +56,6 @@ public class APIController {
         return new ResponseEntity<>(userMap, HttpStatus.OK);
     }
 
-
     /**
      * API for getting Retention
      *
@@ -85,7 +82,6 @@ public class APIController {
 
         return new ResponseEntity<>(userMap, HttpStatus.OK);
     }
-
 
     /**
      * API for getting user

@@ -2,7 +2,6 @@ package com.plexonic.analyticsapi.model;
 
 import java.time.LocalDateTime;
 
-
 public class User {
 
     private String userID;
@@ -25,7 +24,6 @@ public class User {
         this.installDate = installDate;
         return this;
     }
-
 
     @Override
     public String toString() {

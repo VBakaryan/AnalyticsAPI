@@ -3,7 +3,6 @@ package com.plexonic.analyticsapi.service;
 import java.util.List;
 import java.util.Map;
 
-
 public interface RequestService {
 
     /**
@@ -12,7 +11,6 @@ public interface RequestService {
      * @param dateStr
      */
     List<String> getDailyActiveUsers(String dateStr);
-
 
     /**
      * Gets Retention for the given period

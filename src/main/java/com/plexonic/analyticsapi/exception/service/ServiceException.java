@@ -1,6 +1,5 @@
 package com.plexonic.analyticsapi.exception.service;
 
-
 public class ServiceException extends RuntimeException {
 
     public ServiceException(String message) {

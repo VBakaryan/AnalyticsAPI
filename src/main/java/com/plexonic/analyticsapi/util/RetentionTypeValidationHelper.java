@@ -2,7 +2,6 @@ package com.plexonic.analyticsapi.util;
 
 import com.plexonic.analyticsapi.model.RetentionType;
 
-
 public class RetentionTypeValidationHelper {
 
     /**

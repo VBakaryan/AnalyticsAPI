@@ -2,7 +2,6 @@ package com.plexonic.analyticsapi.dao;
 
 import com.plexonic.analyticsapi.model.User;
 
-
 public interface UserDao {
 
     /**

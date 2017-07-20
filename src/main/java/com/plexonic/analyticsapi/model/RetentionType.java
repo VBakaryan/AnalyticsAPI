@@ -1,6 +1,5 @@
 package com.plexonic.analyticsapi.model;
 
-
 public enum RetentionType {
 
     DAY1(1, "Day1"),

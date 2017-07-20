@@ -1,6 +1,5 @@
 package com.plexonic.analyticsapi.exception.service;
 
-
 public class InvalidEntryException extends RuntimeException {
 
     public InvalidEntryException(String message) {

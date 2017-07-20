@@ -2,7 +2,6 @@ package com.plexonic.analyticsapi.model;
 
 import java.time.LocalDateTime;
 
-
 public class Request {
 
     private String userID;

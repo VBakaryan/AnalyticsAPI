@@ -2,7 +2,6 @@ package com.plexonic.analyticsapi.service;
 
 import com.plexonic.analyticsapi.model.User;
 
-
 public interface UserService {
 
     /**
